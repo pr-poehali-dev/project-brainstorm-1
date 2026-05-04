@@ -26,7 +26,7 @@ const links = [
   {
     title: "Kandinsky",
     description: "Российская нейросеть от Сбера",
-    href: "https://fusionbrain.ai",
+    href: "https://www.fusionbrain.ai/",
     icon: Globe,
   },
   {
