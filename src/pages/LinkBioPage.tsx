@@ -24,9 +24,9 @@ const links = [
     icon: Cpu,
   },
   {
-    title: "Kandinsky",
-    description: "Российская нейросеть от Сбера",
-    href: "https://www.fusionbrain.ai/",
+    title: "Шедеврум",
+    description: "Российская нейросеть от Яндекса",
+    href: "https://shedevrum.ai",
     icon: Globe,
   },
   {
