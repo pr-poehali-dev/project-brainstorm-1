@@ -2,36 +2,36 @@ import { motion } from "framer-motion"
 import { ProfileSection } from "@/components/ProfileSection"
 import { LinkCard } from "@/components/LinkCard"
 import { SocialFooter } from "@/components/SocialFooter"
-import { Globe, Youtube, Mail, ShoppingBag, FileText, MessageCircle, Send } from "lucide-react"
+import { Globe, Youtube, Mail, ShoppingBag, FileText, MessageCircle, Send, Instagram, Calendar } from "lucide-react"
 
 const links = [
   {
-    title: "Мой сайт",
-    description: "Портфолио и услуги",
+    title: "Обо мне и портфолио",
+    description: "Мои проекты и кейсы",
     href: "#",
     icon: Globe,
   },
   {
     title: "YouTube канал",
-    description: "Видео и туториалы",
+    description: "Видео, советы и разборы",
     href: "#",
     icon: Youtube,
   },
   {
-    title: "Магазин",
-    description: "Товары и услуги",
+    title: "Записаться на консультацию",
+    description: "Свободные слоты на этой неделе",
     href: "#",
-    icon: ShoppingBag,
+    icon: Calendar,
   },
   {
-    title: "Telegram",
-    description: "Написать напрямую",
+    title: "Написать в Telegram",
+    description: "Отвечаю в течение часа",
     href: "#",
     icon: Send,
   },
   {
     title: "Бесплатные материалы",
-    description: "Шаблоны и гайды",
+    description: "Шаблоны, чеклисты и гайды",
     href: "#",
     icon: FileText,
   },
@@ -39,7 +39,7 @@ const links = [
 
 const socials = [
   { icon: Send, href: "#", label: "Telegram" },
-  { icon: MessageCircle, href: "#", label: "WhatsApp" },
+  { icon: Instagram, href: "#", label: "Instagram" },
   { icon: Mail, href: "#", label: "Email" },
 ]
 
@@ -211,9 +211,9 @@ export function LinkBioPage() {
       >
         <motion.div variants={itemVariants} className="pt-2">
           <ProfileSection
-            name="GlassLinks"
-            bio="Креативный дизайнер и разработчик"
-            imageUrl="/images/544291433-18043960274659947-5766591717842883293-n.jpg"
+            name="Ваше имя"
+            bio="Коротко о себе — чем занимаетесь и чем полезны"
+            imageUrl="/professional-headshot-portrait-minimal.jpg"
           />
         </motion.div>
 
@@ -226,7 +226,7 @@ export function LinkBioPage() {
         </motion.div>
 
         <motion.div variants={itemVariants} className="pb-2">
-          <SocialFooter socials={socials} copyright="2025 GlassLinks" />
+          <SocialFooter socials={socials} copyright="2026 · Ваше имя" />
         </motion.div>
       </motion.div>
     </main>
