@@ -205,19 +205,7 @@ export function LinkBioPage() {
         variants={containerVariants}
         className="relative z-10 mx-auto max-w-[400px] w-full flex flex-col flex-1 justify-between"
       >
-        <motion.div variants={itemVariants} className="pt-2 flex flex-col items-center gap-4">
-          <div
-            className="px-5 py-2 rounded-full text-center"
-            style={{
-              background: "rgba(255, 255, 255, 0.5)",
-              backdropFilter: "blur(20px)",
-              WebkitBackdropFilter: "blur(20px)",
-              boxShadow: "inset 0 1px 1px rgba(255,255,255,0.9), 0 0 0 1px rgba(255,255,255,0.5), 0 4px 12px rgba(0,0,0,0.06)",
-              border: "1px solid rgba(255,255,255,0.6)",
-            }}
-          >
-            <h2 className="text-sm font-semibold text-gray-600 tracking-wide">Нейросети для создания изображений</h2>
-          </div>
+        <motion.div variants={itemVariants} className="pt-2">
           <ProfileSection
             name="Нейросети для создания изображений"
             bio="Нейросети для создания изображений по текстовому описанию"
