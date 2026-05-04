@@ -2,46 +2,42 @@ import { motion } from "framer-motion"
 import { ProfileSection } from "@/components/ProfileSection"
 import { LinkCard } from "@/components/LinkCard"
 import { SocialFooter } from "@/components/SocialFooter"
-import { Globe, Youtube, Mail, ShoppingBag, FileText, MessageCircle, Send, Instagram, Calendar } from "lucide-react"
+import { Sparkles, Wand2, Cpu, Globe, Zap } from "lucide-react"
 
 const links = [
   {
-    title: "Обо мне и портфолио",
-    description: "Мои проекты и кейсы",
-    href: "#",
+    title: "Midjourney",
+    description: "Самые реалистичные и художественные изображения",
+    href: "https://midjourney.com",
+    icon: Sparkles,
+  },
+  {
+    title: "DALL·E 3",
+    description: "Нейросеть от OpenAI, встроена в ChatGPT",
+    href: "https://openai.com/dall-e-3",
+    icon: Wand2,
+  },
+  {
+    title: "Stable Diffusion",
+    description: "Бесплатная open-source нейросеть",
+    href: "https://stability.ai",
+    icon: Cpu,
+  },
+  {
+    title: "Kandinsky",
+    description: "Российская нейросеть от Сбера",
+    href: "https://fusionbrain.ai",
     icon: Globe,
   },
   {
-    title: "YouTube канал",
-    description: "Видео, советы и разборы",
-    href: "#",
-    icon: Youtube,
-  },
-  {
-    title: "Записаться на консультацию",
-    description: "Свободные слоты на этой неделе",
-    href: "#",
-    icon: Calendar,
-  },
-  {
-    title: "Написать в Telegram",
-    description: "Отвечаю в течение часа",
-    href: "#",
-    icon: Send,
-  },
-  {
-    title: "Бесплатные материалы",
-    description: "Шаблоны, чеклисты и гайды",
-    href: "#",
-    icon: FileText,
+    title: "Adobe Firefly",
+    description: "ИИ для создания изображений от Adobe",
+    href: "https://firefly.adobe.com",
+    icon: Zap,
   },
 ]
 
-const socials = [
-  { icon: Send, href: "#", label: "Telegram" },
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "#", label: "Email" },
-]
+const socials = []
 
 const containerVariants = {
   hidden: { opacity: 0 },
