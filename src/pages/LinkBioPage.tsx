@@ -223,9 +223,9 @@ export function LinkBioPage() {
             <h2 className="text-sm font-semibold text-gray-600 tracking-wide">Нейросети для создания изображений</h2>
           </div>
           <ProfileSection
-            name="Ваше имя"
-            bio="Школьный проект · Создание изображений с помощью ИИ"
-            imageUrl="/professional-headshot-portrait-minimal.jpg"
+            name="Нейросети для создания изображений"
+            bio="Нейросети для создания изображений по текстовому описанию"
+            imageUrl=""
           />
         </motion.div>
 
